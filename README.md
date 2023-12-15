@@ -5,7 +5,7 @@
 
 This repository is a result of following the tutorial by Fernando Herrera on building a REST API using TypeScript, Node, and Express while adhering to clean architecture principles and implementing the repository pattern.
 
-## Tutorial Overview
+## Overview
 
 Building a robust and scalable REST API using TypeScript, Node.js, and Express. The tutorial emphasizes the importance of clean architecture principles and the repository pattern to achieve a maintainable and testable codebase.
 
