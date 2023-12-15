@@ -1,4 +1,4 @@
-# Building a REST API with TypeScript, Node, Express and PostgreeSQL
+# Building a REST API with TypeScript, Node, Express and PostgreSQL
 
   <img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript" alt="TypeScript Badge">
   <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js" alt="Node.js Badge">
