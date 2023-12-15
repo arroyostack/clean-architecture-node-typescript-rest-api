@@ -20,13 +20,13 @@ export class TodosController {
         const id = +req.params.id;
         const todo = todos.find( todo => todo.id === id );
 
-        // Validates that the argument is a number and not a chracter for instance.
+        // Validates that the argument is a number and not a character for instance.
         if ( isNaN( id ) ) {
             // Bad request
             return res.status( 400 ).json( { error: 'Id argument is not a number.' } );
         }
 
-        // Response.
+        // Success or Not Found response.
         ( todo )
             ? res.json( todo )
             : res.status( 404 ).json( {
@@ -52,9 +52,6 @@ export class TodosController {
 
             res.json( newTodo );
         }
-
-
-
     };
 
 }
